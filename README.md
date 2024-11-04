@@ -4,11 +4,9 @@ This repository contains a machine learning project for predicting customer chur
 
 ## Project Structure
 
-- `train_df.csv`: Training dataset with features about customers and a target column indicating churn (1 for churn, 0 for not churn).
-- `test_df.csv`: Test dataset with customer features for which we will predict churn probabilities.
+- `train.csv`: Training dataset with features about customers and a target column indicating churn (1 for churn, 0 for not churn).
+- `test.csv`: Test dataset with customer features for which we will predict churn probabilities.
 - `notebooks/`: Jupyter notebooks with data exploration, feature engineering, model training, and evaluation steps.
-- `src/`: Python scripts used for data processing, model training, and prediction.
-
 ## Features
 
 The dataset includes the following features:
